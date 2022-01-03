@@ -1,0 +1,153 @@
+ES6 JAVASCRIPT 
+
+
+ECMA - EUROPEAN COMPUTER MANUFACTURER'S ASSOCITAION 
+
+
+-- A STANDARD SCRIPTING LANGUAGES LIKE JAVASCRIPT, JSCRIPT IS ECMASCRIPT.
+
+
+-- JS IS IMPLEMENTATION OF ECMASCRIPT.
+
+
+WHAT IS ES6 ?
+
+ES6 REFERS TO THE VERSION OF ECMA SCRIPT PROGRAMMING LANGUAGE. 
+
+
+ES6 OR ECMASCRIPT 2015 BECAUSE PUBLISHED IN JUNE 2015. 
+
+
+ES6 HAS SOME MODERN FEATURES IN BROWSERS. 
+
+-- ECMA SCRIPT IS OFFICIAL NAME OF JAVASCRIPT.
+
+
+VARIABLES IN OLD VS ES6
+
+
+OLD - VAR IS KEYWORD AND WE CAN REDCLARE THE VARIABLES WITH THE SAME NAME 
+
+VAR COUNTER =10;
+
+VAR COUNTER=5;
+CONSOLE.LOG(COUNTER);
+
+
+ES6 JS - CONST, LET ARE THE TWO KEYWORDS WHICH WE USE IN ES6 TO DECLARE VARIBALES
+
+CONST -- IS A KEYWORD TO KEEP THE VARIABLE CONSTANT AND CANNOT BE REASSIGNED 
+
+
+
+Object deconstruction
+OLD
+
+var user = {
+name:'ed',
+age:25
+}
+var myname = user.name;
+console.log(myname);
+
+
+NEW
+
+
+const list ={
+name:'shooping list',
+items:['milk',butter']
+}
+const{name,items} = list;
+console.log(name,items);
+
+
+
+ARROW FUNCIONS 
+
+OLD 
+
+function sayName() 
+{
+console.log('sreeja');
+}
+var age= function() {
+console.log('welcome');
+};
+
+
+NEW 
+
+// instead of writing whole function we can write arrow function here 
+const saylocation = ()=> {
+console.log('my loc is sklm');
+};
+
+saylocation();
+
+// arrow function with parameters
+const saylocation = (location)=> {
+console.log('my loc is ${location}');
+};
+
+saylocation("paris");
+
+
+// we can get rid of the curly braces in es6  with single line of code only 
+
+
+const saylocation = (location)=> 
+console.log('my loc is ${location}');
+
+saylocation("paris");
+
+
+-- WE CAN INSTALL NODEMON USING THE COMMAND "npm install nodemon --global" IN THE TERMINAL THAT YOU ARE WORKING ON JS 
+
+
+HOW TO RUN ?
+
+>NODEMON INDEX.JS
+
+
+IT WILL RUN AUTOMATICALLY AFTER WE SAVE THE FILE CONTINUOSLY. 
+
+WHAT IS NODEMON?
+
+
+nodemon is a tool that helps develop node.
+js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+
+ES6 CONCEPTS 
+
+
+--CONST
+
+
+
+--LET 
+
+
+--ARROW FUNCTIONS
+
+
+--CLASSES 
+
+
+-- FOREACH, MAP, FILTER 
+
+
+-- DEFAULT PARAMETRS
+
+
+
+
+
+
+
+
+
+
+
+
